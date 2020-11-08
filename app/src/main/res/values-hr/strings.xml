@@ -1,23 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">myapplication</string>
     <string name="image">image</string>
     <string name="ime">Ime</string>
     <string name="prezime">Prezime</string>
-    <string name="datum_rodenja">Datum rodenja</string>
+    <string name="datum_rodenja">Datum rođenja</string>
     <string name="unesi_datum">Unesi datum</string>
     <string name="dalje">Dalje</string>
     <string name="predmet">Predmet</string>
     <string name="profesor">Profesor</string>
-    <string name="trenutna_godina">Trenutna godina</string>
+    <string name="trenutna_godina">Trentuna godina</string>
     <string name="broj_sati_predavanja">Broj sati predavanja</string>
     <string name="broj_sati_lv_a">Broj sati LV-a</string>
-    <string name="personal_info">Personal info</string>
+    <string name="personal_info">Osobne informacije</string>
     <string name="datum">Datum</string>
-    <string name="student_info">Student info</string>
+    <string name="student_info">Akademske informacije</string>
     <string name="akademska_godina">Akademska godina</string>
     <string name="sati_predavanja">Sati predavanja</string>
     <string name="sati_lv_a">Sati LV-a</string>
-    <string name="pocetak">Pocetak</string>
+    <string name="pocetak">Početak</string>
     <string name="studenti">Studenti</string>
     <string name="stvori_studenta">Stvori studenta</string>
 </resources>

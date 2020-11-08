@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">myapplication</string>
+    <string name="image">image</string>
+    <string name="ime">Nev</string>
+    <string name="prezime">" Vezetéknév"</string>
+    <string name="datum_rodenja">" Születési dátum"</string>
+    <string name="unesi_datum">Adja meg a dátumot</string>
+    <string name="dalje">" További"</string>
+    <string name="predmet">" Ügy"</string>
+    <string name="profesor">" Egyetemi tanár"</string>
+    <string name="trenutna_godina">Jelen év</string>
+    <string name="broj_sati_predavanja">Az előadások óraszáma</string>
+    <string name="broj_sati_lv_a">" Órák előadások"</string>
+    <string name="personal_info">Személyes adat</string>
+    <string name="datum">" Dátum"</string>
+    <string name="student_info">Akadémiai információk</string>
+    <string name="akademska_godina">Tanév</string>
+    <string name="sati_predavanja">" Órák előadások"</string>
+    <string name="sati_lv_a">" LV óra"</string>
+    <string name="pocetak">" Kezdet"</string>
+    <string name="studenti">" Diákok"</string>
+    <string name="stvori_studenta">Hozzon létre egy diákot</string>
+</resources>

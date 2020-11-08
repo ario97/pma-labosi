@@ -11,7 +11,8 @@
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".SummaryActivity"></activity>
         <activity android:name=".StudentInfoActivity" />
-        <activity android:name=".PersonalInfoActivity">
+        <activity android:name=".PersonalInfoActivity" />
+        <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
