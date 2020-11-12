@@ -84,13 +84,13 @@ public class StartActivity extends AppCompatActivity implements
         aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(aa);
 
-        if(current.getLanguage() == "hr") {
+        if("hr".equals(current.getLanguage())) {
             spin.setSelection(0);
         }
-        if(current.getLanguage() == "en") {
+        if("en".equals(current.getLanguage())) {
             spin.setSelection(1);
         }
-        if(current.getLanguage() == "hu") {
+        if("hu".equals(current.getLanguage())) {
             spin.setSelection(2);
         }
     }

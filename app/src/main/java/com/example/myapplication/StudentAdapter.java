@@ -32,9 +32,9 @@ public class StudentAdapter extends
             return new StudentViewHolder(view);
         }
         else
-        {
+       {
             View view = (View) LayoutInflater.from(viewGroup.getContext())
-                    .inflate(R.layout.header_holder, viewGroup, false);
+                   .inflate(R.layout.header_holder, viewGroup, false);
             return new HeaderViewHolder(view);
         }
 

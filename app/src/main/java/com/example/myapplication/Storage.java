@@ -18,7 +18,7 @@ public class Storage {
         if(instanca==null)
         {
             instanca = new Storage();
-            instanca.students.add("Studenti");
+            instanca.students.add("List:");
         }
         return  instanca;
     }
