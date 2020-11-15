@@ -19,10 +19,14 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import com.example.myapplication.StudentAdapter;
+
+import com.example.myapplication.R;
+
 
 import java.util.List;
 import java.util.Locale;
-
+//////LV4////////////////
 public class StartActivity extends AppCompatActivity implements
         AdapterView.OnItemSelectedListener {
 
@@ -34,6 +38,7 @@ public class StartActivity extends AppCompatActivity implements
     String[] languages = { "Cro", "Eng", "Hun"};
     String[] items_value = new String[]{"hr", "en", "hu"};
     int check = 0;
+
 
     @SuppressWarnings("deprecation")
     private void setAppLocale (String localeCode)
@@ -62,8 +67,8 @@ public class StartActivity extends AppCompatActivity implements
         StvoriButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent OtvoriPersonalInfo = new Intent(getApplicationContext(), PersonalInfoActivity.class);
-                startActivity(OtvoriPersonalInfo);
+                Intent OtvoriNewRecordActivity = new Intent(getApplicationContext(), CreateNewRecordActivity.class);
+                startActivity(OtvoriNewRecordActivity);
             }
         });
 
@@ -93,6 +98,7 @@ public class StartActivity extends AppCompatActivity implements
         if("hu".equals(current.getLanguage())) {
             spin.setSelection(2);
         }
+
     }
 
     @Override
@@ -117,4 +123,7 @@ public class StartActivity extends AppCompatActivity implements
 
 
 }
+
+
+
 
