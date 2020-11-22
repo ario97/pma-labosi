@@ -8,8 +8,15 @@
     android:padding="16dp"
     tools:context=".StudentInfoFragment">
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
-    <com.google.android.material.textfield.TextInputLayout
+
+    <!-- <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputPredmet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,9 +27,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/predmet" />
-    </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout> -->
 
-    <com.google.android.material.textfield.TextInputLayout
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spPredmet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputProfesor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +48,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/profesor" />
-    </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout> -->
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spProfesor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spPredmet"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputAkGod"
@@ -42,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputProfesor">
+        app:layout_constraintTop_toBottomOf="@+id/spProfesor">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
